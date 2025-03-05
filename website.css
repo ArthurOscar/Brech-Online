@@ -24,6 +24,10 @@ header h1 {
     font-size: 2.5rem;
 }
 
+#produtos-titulo {
+    text-align: center;
+}
+
 .produtos {
     display: flex;
     flex-wrap: wrap;
