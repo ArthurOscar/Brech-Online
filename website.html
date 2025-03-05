@@ -9,60 +9,48 @@
 
 <body>
     <header>
-        <h1>Bem-vindo ao Brechó Online</h1>
+        <h1>Bem-vindo ao Brechó</h1>
     </header>
     <h1 id="produtos-titulo">Produtos</h1>
     <div class="produtos">
         <div class="produto">
             <h3>Camisa Azul</h3>
-            <img src="c:\Users\arthur_o_soares\Downloads\Camisa_Azul (1).png" alt="">
+            <img class="imagem" src="Imagens-roupas/Camisa_Azul.png" alt="">
             <p>Boa para esportes!</p>
             <p>Preço: R$80,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Camisa NFL</h3>
-            <img src="c:\Users\arthur_o_soares\Downloads\Camisa_NFL (1).png" alt="">
+            <img class="imagem" src="Imagens-roupas/Camisa_NFL.png" alt="">
             <p>Grande e estilosa</p>
             <p>Preço: R$120,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Camisa Preta</h3>
-            <img src="c:\Users\arthur_o_soares\Downloads\Camisa_Pretapng.png" alt="">
+            <img class="imagem" src="Imagens-roupas/Camisa_Pretapng.png" alt="">
             <p>Marca estilosa</p>
             <p>Preço: R$150,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
-            <h3>Camiseta Milan</h3>
-            <img src="c:\Users\arthur_o_soares\Downloads\Design sem nome (1).png" alt="">
-            <p>Estilosa para qualquer situação</p>
-            <p>Preço: R$100,00</p>
-            <button>Compre</button>
-            <h3>Shorts preto</h3>
-            <img src="" alt="">
-            <p>Adequado para esportes</p>
-            <p>Preço: R$50,00</p>
-            <button>Compre</button>
-        </div>
-        <div class="produto">
             <h3>Calça Azul</h3>
-            <img src="" alt="">
+            <img class="imagem" src="Imagens-roupas/Calça_azul.png" alt="">
             <p>Leve e muito estilo</p>
             <p>Preço: R$100,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Shorts cinza</h3>
-            <img src="" alt="">
+            <img class="imagem" src="Imagens-roupas/Shorts_cinza.png" alt="">
             <p>Muito boa para o dia a dia</p>
             <p>Preço: R$130,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Shorts praiano</h3>
-            <img src="" alt="">
+            <img class="imagem" src="Imagens-roupas/Shorts_praiano.png" alt="">
             <p>Estliso na praia</p>
             <p>Preço: R$80,00</p>
             <button>Compre</button>
@@ -78,8 +66,27 @@
                 todos. Acreditamos que cada peça de roupa tem uma história para contar e queremos ajudar você a
                 encontrar a próxima peça favorita do seu guarda-roupa.</p>
         </div>
+
+        <div>
+            <h3>Contato</h3>
+        </div>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="mensagem">Mensagem:</label>
+            <input type="mensagem" id="mensagem" name="mensagem" required>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </form>
         <footer>
-            <p>2025 Brechó. Todos os direitos reservados.</p>
+            <p id="rodape">2025 Brechó. Todos os direitos reservados.</p>
         </footer>
     </div>
 </body>

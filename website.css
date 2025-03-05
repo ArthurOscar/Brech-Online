@@ -46,3 +46,81 @@ header h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.imagem {
+
+    width: 200px;
+    height: auto;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.produto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.produto p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.produto button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.produto button:hover {
+    background-color: #45a049;
+}
+
+.sobre-nos {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.sobre-nos p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#rodape{
+    color: #fff;
+}
