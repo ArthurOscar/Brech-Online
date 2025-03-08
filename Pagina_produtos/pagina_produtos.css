@@ -11,17 +11,36 @@ body {
     color: #333;
 }
 
-header {
+.navbar {
     background-color: #4CAF50;
     color: #fff;
     padding: 20px 0;
-    text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+.fundo_navbar{
+    display: flex;
+    background-color: green;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#titulo_principal {
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+#carrinho {
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 1088px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 #produtos-titulo {
@@ -36,7 +55,7 @@ header h1 {
     gap: 20px;
 }
 
-.produto {
+.produto h1{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -83,6 +102,11 @@ header h1 {
 
 .produto button:hover {
     background-color: #45a049;
+}
+
+#inferior{
+    text-align: center;
+    color: #4CAF50;
 }
 
 .sobre-nos {

@@ -3,54 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brechó</title>
-    <link rel="stylesheet" href="website.css">
+    <title>Brechó online</title>
+    <link rel="stylesheet" href="pagina_produtos.css">
+    <script src="pagina_produtos.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Bem-vindo ao Brechó</h1>
-    </header>
-    <h1 id="produtos-titulo">Produtos</h1>
+    <div class="navbar">
+        <div class="fundo_navbar">
+            <h1 id="titulo_principal">Bem-vindo Ao Brechó online</h1>
+            <a href="../pagina_carrinho/pagina_carrinho.html" id="carrinho">Carrinho</h1>
+        </div>
+    </div>
+    <h1 id="produtos-titulo">Camisetas</h1>
     <div class="produtos">
         <div class="produto">
             <h3>Camisa Azul</h3>
-            <img class="imagem" src="Imagens-roupas/Camisa_Azul.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Camisa_Azul.png" alt="">
             <p>Boa para esportes!</p>
             <p>Preço: R$80,00</p>
-            <button>Compre</button>
+            <button onclick="carrinho()">Compre</button>
         </div>
         <div class="produto">
             <h3>Camisa NFL</h3>
-            <img class="imagem" src="Imagens-roupas/Camisa_NFL.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Camisa_NFL.png" alt="">
             <p>Grande e estilosa</p>
             <p>Preço: R$120,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Camisa Preta</h3>
-            <img class="imagem" src="Imagens-roupas/Camisa_Pretapng.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Camisa_Pretapng.png" alt="">
             <p>Marca estilosa</p>
             <p>Preço: R$150,00</p>
             <button>Compre</button>
         </div>
+    </div>
+    <hr>
+    <div>
+        <p id="inferior">Calças e Shorts</p>
+    </div>
+    <div class="produtos">
         <div class="produto">
             <h3>Calça Azul</h3>
-            <img class="imagem" src="Imagens-roupas/Calça_azul.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Calça_azul.png" alt="">
             <p>Leve e muito estilo</p>
             <p>Preço: R$100,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Shorts cinza</h3>
-            <img class="imagem" src="Imagens-roupas/Shorts_cinza.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Shorts_cinza.png" alt="">
             <p>Muito boa para o dia a dia</p>
             <p>Preço: R$130,00</p>
             <button>Compre</button>
         </div>
         <div class="produto">
             <h3>Shorts praiano</h3>
-            <img class="imagem" src="Imagens-roupas/Shorts_praiano.png" alt="">
+            <img class="imagem" src="../Imagens-roupas/Shorts_praiano.png" alt="">
             <p>Estliso na praia</p>
             <p>Preço: R$80,00</p>
             <button>Compre</button>
