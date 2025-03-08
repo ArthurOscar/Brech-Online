@@ -1,4 +1,36 @@
-.naofeito{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fundo_titulo {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 5px rgb(7, 58, 7);
+}
+
+#carrinho-brecho {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px 0;
+    height: auto;
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.naofeito {
     text-align: center;
     font-size: 100px;
     margin-top: 20%;
