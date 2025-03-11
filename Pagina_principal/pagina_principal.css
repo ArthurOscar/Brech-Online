@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
 }
@@ -21,13 +20,13 @@ body {
 }
 
 #carrinho-brecho {
-    margin-left: 1100px;
+    margin-left: 1000px;
     color: white;
     font-family: 'Arial', sans-serif;
     padding: 20px 0;
     height: auto;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 35px;
 }
 
 #titulo_brecho {
@@ -45,7 +44,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 35px;
 }
 
 #produtos-titulo {
@@ -62,23 +61,37 @@ header h1 {
     text-decoration: none;
 }
 
-.carrossel {
+.produto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
     width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-.container-imagens {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: mandatory;
-}
-
-.linha {
+    max-width: 250px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
 }
-    
 
+.produto img {
+    width: 100%;
+}
+
+.top-card {
+    width: 100%;
+    height: 15%;
+}
+
+.mid-card {
+    width: 100%;
+    height: 50%;
+}
+
+.bottom-card {
+    width: 100%;
+    height: 35%;
+}
 
 .imagem {
     text-decoration: none;
@@ -93,32 +106,32 @@ header h1 {
 }
 
 .produto h3 {
-    font-size: 1.5rem;
+    font-size: 25px;
     margin-bottom: 10px;
     color: #4CAF50;
     text-decoration: none;
 }
 
 .produto p {
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 15px;
     color: #666;
     text-decoration: none;
 }
 
-.linha button {
+.produto button {
     background-color: #4CAF50;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 20px;
     transition: background-color 0.3s ease;
     text-decoration: none;
 }
 
-.linha button:hover {
+.produto button:hover {
     background-color: #45a049;
 }
 
@@ -131,15 +144,15 @@ header h1 {
 }
 
 .sobre-nos h2 {
-    font-size: 2rem;
+    font-size: 30px;
     margin-bottom: 20px;
     color: #4CAF50;
     text-align: center;
 }
 
 .sobre-nos p {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    font-size: 25px;
+    text-align: justify;
     margin-bottom: 20px;
     color: #555;
 }
@@ -155,23 +168,10 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 #rodape {
     color: #fff;
-}
-
-.flex {
-
-    display: flex;
-
-}
-
-.contato{
-    padding: 40px 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
