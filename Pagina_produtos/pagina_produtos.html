@@ -11,68 +11,44 @@
     <header>
         <div id="fundo_titulo">
             <h1 id="titulo_brecho">Bem-vindo ao Brechó Online</h1>
-            <a id="carrinho-brecho" href="../Pagina_naofeita/pagina_naofeita.html">Carrinho</a>
+            <a id="carrinho-brecho" href="../Pagina_naofeita/pagina_naofeita.html"><b>Carrinho</b></a>
     </header>
     <br>
-    <hr>
-    <hr>
     <h1 id="produtos-titulo">Camisas</h1>
-    <div class="produtos">
-        <div class="produto">
-            <h3>Camisa Azul</h3>
-            <img class="imagem" src="../Imagens-roupas/Camisa_Azul.png" alt="">
-            <p>Boa para esportes!</p>
-            <p>Preço: R$80,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
-        </div>
-        <div class="produto">
-            <h3>Camisa NFL</h3>
-            <img class="imagem" src="../Imagens-roupas/Camisa_NFL.png" alt="">
-            <p>Grande e estilosa</p>
-            <p>Preço: R$120,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
-        </div>
-        <div class="produto">
-            <h3>Camisa Preta</h3>
-            <img class="imagem" src="../Imagens-roupas/Camisa_Pretapng.png" alt="">
-            <p>Marca estilosa</p>
-            <p>Preço: R$150,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
+
+    <div class="carrossel">
+        <div class="linha">
+            <div class="container-imagens">
+                <img src="../Imagens-roupas/Camisa_Azul.png" alt="Camisa Azul">
+                <img src="../Imagens-roupas/Camisa_NFL.png" alt="Camisa NFL">
+                <img src="../Imagens-roupas/Camisa_Pretapng.png" alt="Camisa Preta">
+            </div>
+            <br>
+            <button class="button">Comprar</button>
         </div>
     </div>
-    <hr>
-    <hr>
-    <h1 id="produtos-titulo">Calças e Shorts</h1>
-    <div class="produtos">
-        <div class="produto">
-            <h3>Calça Azul</h3>
-            <img class="imagem" src="../Imagens-roupas/Calça_azul.png" alt="">
-            <p>Leve e muito estilo</p>
-            <p>Preço: R$100,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
-        </div>
-        <div class="produto">
-            <h3>Shorts cinza</h3>
-            <img class="imagem" src="../Imagens-roupas/Shorts_cinza.png" alt="">
-            <p>Muito boa para o dia a dia</p>
-            <p>Preço: R$130,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
-        </div>
-        <div class="produto">
-            <h3>Shorts praiano</h3>
-            <img class="imagem" src="../Imagens-roupas/Shorts_praiano.png" alt="">
-            <p>Estliso na praia</p>
-            <p>Preço: R$80,00</p>
-            <a href="../Pagina_naofeita/pagina_naofeita.html"><button>Comprar</button></a>
+
+    <h1 id="produtos-titulo"> Calças e Bermudas</h1>
+
+    <div class="carrossel">
+        <div class="linha">
+            <div class="container-imagens">
+                <img src="../Imagens-roupas/Shorts_praiano.png" alt="Shorts para ir a praia">
+                <img src="../Imagens-roupas/Shorts_cinza.png" alt="Shorts Cinza">
+                <img src="../Imagens-roupas/Calça_azul.png" alt="Calça Azul">
+            </div>
+            <br>
+            <button>Comprar</button>
         </div>
     </div>
+
+    
     <div class="sobre-nos">
         <div class="sobre-nos">
             <h2>Sobre Nós</h2>
             <p>Somos um brechó dedicado a oferecer roupas e acessórios de qualidade a preços acessíveis. Nossa missão é
                 proporcionar uma experiência de compra única, onde você pode encontrar peças exclusivas e estilosas sem
-                gastar muito.</p>
-            <p>Fundado em 2025, o Brechó nasceu da paixão por moda sustentável e do desejo de tornar a moda acessível a
+                gastar muito. Fundado em 2025, o Brechó nasceu da paixão por moda sustentável e do desejo de tornar a moda acessível a
                 todos. Acreditamos que cada peça de roupa tem uma história para contar e queremos ajudar você a
                 encontrar a próxima peça favorita do seu guarda-roupa.</p>
         </div>
@@ -80,7 +56,7 @@
         <div>
             <h3>Contato</h3>
         </div>
-        <form action="#" method="post">
+        <form class="contato" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
             <br>

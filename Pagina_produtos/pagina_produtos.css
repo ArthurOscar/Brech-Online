@@ -62,17 +62,23 @@ header h1 {
     text-decoration: none;
 }
 
-.produto {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
+.carrossel {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
 }
+
+.container-imagens {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: mandatory;
+}
+
+.linha {
+    text-align: center;
+}
+    
+
 
 .imagem {
     text-decoration: none;
@@ -100,7 +106,7 @@ header h1 {
     text-decoration: none;
 }
 
-.produto button {
+.linha button {
     background-color: #4CAF50;
     color: #fff;
     border: none;
@@ -112,7 +118,7 @@ header h1 {
     text-decoration: none;
 }
 
-.produto button:hover {
+.linha button:hover {
     background-color: #45a049;
 }
 
@@ -154,4 +160,18 @@ footer p {
 
 #rodape {
     color: #fff;
+}
+
+.flex {
+
+    display: flex;
+
+}
+
+.contato{
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
